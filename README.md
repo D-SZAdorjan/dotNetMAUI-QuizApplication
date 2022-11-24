@@ -1,1 +1,1 @@
-# dotNetMAUI-QuizApplication
+# QuizApplication - .NET MAUI
