@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:QuizApp.Model"
+             xmlns:viewmodel="clr-namespace:QuizApp.ViewModels"
+             x:DataType="viewmodel:QuizesViewModel"
+			 x:Class="QuizApp.Pages.MainPage"
+			 Title= "{Binding Title}">
+	<Grid RowDefinitions="Auto, *" ColumnDefinitions="*">
+		<Label
+			Grid.Row="0"
+			Grid.Column="0"
+			x:Name="mainPageLbl"
+			Text="User"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			FontSize="48"
+			TextColor="White"/>
+        <CollectionView
+            IsGrouped="true"
+            Grid.Row="1"
+            Grid.Column="0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Player">
+                    <Grid RowDefinitions="Auto, Auto, *" ColumnDefinitions="Auto, *">
+                        <Label
+                            FontSize="36"
+                            Text="{Binding UserName}"
+                            TextColor="White"/>
+                        <VerticalStackLayout>
+                            <Label
+                                FontSize="18"
+                                TextColor="LightGray"
+                                Text="Level: "/>
+                            <Label
+                                FontSize="18"
+                                TextColor="White"
+                                Text="{Binding Level}"/>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout>
+                            <Label
+                                FontSize="18"
+                                TextColor="LightGray"
+                                Text="Exp: "/>
+                            <Label
+                                FontSize="18"
+                                TextColor="White"
+                                Text="{Binding Experience}"/>
+                        </VerticalStackLayout>
+                        <Label
+                            FontSize="24"
+                            TextColor="White"
+                            Text="Quizzes"/>
+                        <ListView ItemsSource="{Binding quizzes}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Label
+                                            TextColor="White"
+                                            FontSize="18"
+                                            Text="{Binding Na}"/>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            
+        </CollectionView>
+	</Grid>
+</ContentPage>
