@@ -1,0 +1,467 @@
+[
+  {
+    "Id": 0,
+    "UserName": "Demen",
+    "Level": 0,
+    "Experience": 0,
+    "Quizzes": [
+      {
+        "Id": 0,
+        "Name": "Science Quiz",
+        "Questions": [
+          {
+            "Id": 0,
+            "QuestionString": "What is the number Pi?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "2.14",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "2.65",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "3.14",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 1,
+            "QuestionString": "How much does the earth weigh?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "2kg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "5.972 × 10^21kg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "5.972 × 10^21mg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 3,
+                "AnswerString": "2t",
+                "IsCorrect": false
+              },
+              {
+                "Id": 4,
+                "AnswerString": "5.972 × 10^21t",
+                "IsCorrect": true
+              },
+              {
+                "Id": 5,
+                "AnswerString": "2mg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 6,
+                "AnswerString": "5.972 × 10^24kg",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 2,
+            "QuestionString": "How far away is the sun?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "93 million miles",
+                "IsCorrect": true
+              },
+              {
+                "Id": 1,
+                "AnswerString": "0.000015603 light years",
+                "IsCorrect": true
+              },
+              {
+                "Id": 2,
+                "AnswerString": "147.62 million km",
+                "IsCorrect": true
+              },
+              {
+                "Id": 3,
+                "AnswerString": "163604549431.32 yd",
+                "IsCorrect": true
+              },
+              {
+                "Id": 4,
+                "AnswerString": "484.3 billion′",
+                "IsCorrect": true
+              },
+              {
+                "Id": 5,
+                "AnswerString": "147.62 billion m",
+                "IsCorrect": true
+              },
+              {
+                "Id": 6,
+                "AnswerString": "123.017 billion washing machines",
+                "IsCorrect": true
+              },
+              {
+                "Id": 7,
+                "AnswerString": "1.406 billion footbal fields",
+                "IsCorrect": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 1,
+        "Name": "Personal Quiz",
+        "Questions": [
+          {
+            "Id": 0,
+            "QuestionString": "What is your name?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "Laci",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "Matyi",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "Manyi",
+                "IsCorrect": false
+              },
+              {
+                "Id": 3,
+                "AnswerString": "Kati",
+                "IsCorrect": false
+              },
+              {
+                "Id": 4,
+                "AnswerString": "Ador",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 1,
+            "QuestionString": "How old are you?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "13",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "23",
+                "IsCorrect": true
+              },
+              {
+                "Id": 2,
+                "AnswerString": "32",
+                "IsCorrect": false
+              },
+              {
+                "Id": 3,
+                "AnswerString": "40",
+                "IsCorrect": false
+              }
+            ]
+          },
+          {
+            "Id": 2,
+            "QuestionString": "How many brothers/sisters do you have?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "1",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "0",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "2",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 3,
+            "QuestionString": "Where do you live?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "Suseni, Mures",
+                "IsCorrect": true
+              },
+              {
+                "Id": 1,
+                "AnswerString": "Suseni, Miercurea Ciuc",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "Suseni, Mures, Transylvania",
+                "IsCorrect": true
+              },
+              {
+                "Id": 3,
+                "AnswerString": "Suseni, Mures, Romania",
+                "IsCorrect": true
+              },
+              {
+                "Id": 4,
+                "AnswerString": "Suseni, Pensylvania, America",
+                "IsCorrect": false
+              }
+            ]
+          },
+          {
+            "Id": 4,
+            "QuestionString": "What is your favourite color?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "Blue",
+                "IsCorrect": true
+              },
+              {
+                "Id": 1,
+                "AnswerString": "Red",
+                "IsCorrect": true
+              },
+              {
+                "Id": 2,
+                "AnswerString": "Green",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 5,
+            "QuestionString": "Where you were born?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "Reghin, Mures",
+                "IsCorrect": true
+              },
+              {
+                "Id": 1,
+                "AnswerString": "Odorheiu Secuiesc, Harghita",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "Petelea, Mures",
+                "IsCorrect": false
+              }
+            ]
+          },
+          {
+            "Id": 6,
+            "QuestionString": "In wich university did you graduate?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "MIT",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "HARVARD",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "CALTECH",
+                "IsCorrect": false
+              },
+              {
+                "Id": 3,
+                "AnswerString": "Sapientia EMTE",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 7,
+            "QuestionString": "What fast food do you like?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "Pizza",
+                "IsCorrect": true
+              },
+              {
+                "Id": 1,
+                "AnswerString": "Hotdog",
+                "IsCorrect": true
+              },
+              {
+                "Id": 2,
+                "AnswerString": "Shwarma",
+                "IsCorrect": true
+              },
+              {
+                "Id": 3,
+                "AnswerString": "Dogshit",
+                "IsCorrect": false
+              },
+              {
+                "Id": 4,
+                "AnswerString": "Doughnut",
+                "IsCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "UserName": "Test",
+    "Level": 3,
+    "Experience": 2000,
+    "Quizzes": [
+      {
+        "Id": 0,
+        "Name": "Science Quiz",
+        "Questions": [
+          {
+            "Id": 0,
+            "QuestionString": "What is the number Pi?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "2.14",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "2.65",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "3.14",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 1,
+            "QuestionString": "How much does the earth weigh?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "2kg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 1,
+                "AnswerString": "5.972 × 10^21kg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 2,
+                "AnswerString": "5.972 × 10^21mg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 3,
+                "AnswerString": "2t",
+                "IsCorrect": false
+              },
+              {
+                "Id": 4,
+                "AnswerString": "5.972 × 10^21t",
+                "IsCorrect": true
+              },
+              {
+                "Id": 5,
+                "AnswerString": "2mg",
+                "IsCorrect": false
+              },
+              {
+                "Id": 6,
+                "AnswerString": "5.972 × 10^24kg",
+                "IsCorrect": true
+              }
+            ]
+          },
+          {
+            "Id": 2,
+            "QuestionString": "How far away is the sun?",
+            "Answers": [
+              {
+                "Id": 0,
+                "AnswerString": "93 million miles",
+                "IsCorrect": true
+              },
+              {
+                "Id": 1,
+                "AnswerString": "0.000015603 light years",
+                "IsCorrect": true
+              },
+              {
+                "Id": 2,
+                "AnswerString": "147.62 million km",
+                "IsCorrect": true
+              },
+              {
+                "Id": 3,
+                "AnswerString": "163604549431.32 yd",
+                "IsCorrect": true
+              },
+              {
+                "Id": 4,
+                "AnswerString": "484.3 billion′",
+                "IsCorrect": true
+              },
+              {
+                "Id": 5,
+                "AnswerString": "147.62 billion m",
+                "IsCorrect": true
+              },
+              {
+                "Id": 6,
+                "AnswerString": "123.017 billion washing machines",
+                "IsCorrect": true
+              },
+              {
+                "Id": 7,
+                "AnswerString": "1.406 billion footbal fields",
+                "IsCorrect": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "UserName": "Noobie",
+    "Level": 0,
+    "Experience": 0,
+    "Quizzes": []
+  }
+]
